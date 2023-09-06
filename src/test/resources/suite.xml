@@ -1,0 +1,7 @@
+<suite thread-count="1" verbose="1" name="Google Calculator Automation">
+    <test name="Calculator Automation">
+        <classes>
+            <class name="TestRunner"/>
+        </classes>
+    </test>
+</suite>
