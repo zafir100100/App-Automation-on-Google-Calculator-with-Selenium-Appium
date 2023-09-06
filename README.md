@@ -64,7 +64,7 @@ App automation with Selenium Appium is beneficial because it allows developers a
 
 - Gradle report screenshots are in: src/test/resources/screenshots/gradle-report
 
-## Allure Report:
+## Screenshots - Allure Report:
 
 - Allure report screenshots are in: src/test/resources/screenshots/allure-report
 
