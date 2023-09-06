@@ -26,15 +26,20 @@ App automation with Selenium Appium is beneficial because it allows developers a
 - Open Appium Inspector
 - Set desired capabilites in json format:
 ``` 
- {
- "appium:deviceName": "emulator",
-  "appium:uuid": "emulator-5554",
-  "platformName": "Android",
-  "appium:platformVersion": "11",
-  "appium:appPackage": "com.google.android.calculator",
-  "appium:appActivity": "com.android.calculator2.Calculator",
-  "appium:app": "D:\\APK\\calculator.apk"
-  }
+{
+  "unicodeKeyboard": false,
+  "resetKeyboard": false,
+  "platformName": "android",
+  "autoLaunch": "false",
+  "fullReset": "false",
+  "newCommandTimeout": 6000,
+  "automationName": "UiAutomator2",
+  "platformVersion": "10",
+  "deviceName": "Redmi K20 Pro",
+  "appPackage": "com.google.android.calculator",
+  "appActivity": "com.android.calculator2.Calculator",
+  "app": "D:\\files\\assignment\\final\\App-Automation-on-Google-Calculator-with-Selenium-Appium\\src\\test\\resources\\Calculator.apk"
+}
 ```
 - Open Intellij Idea
 - Hit the following command into the terminal: ```gradle clean test```
@@ -47,7 +52,6 @@ App automation with Selenium Appium is beneficial because it allows developers a
 - Subtraction of 2 numbers (8-3=5)
 - multiplied of Result of Sum and Subtraction (14*5=70)
 - Divided the result of multiplication with 10 (70/10=7)
-- Solved this series (100+200-100*2/5)
 
 ## Prerequisites:
 
@@ -56,16 +60,11 @@ App automation with Selenium Appium is beneficial because it allows developers a
 - Install jdk 8 or any LTS version
 - Configure ANDROID_HOME, JAVA_HOME and GRADLE_HOME
 
+## Screenshots - Gradle Report:
+
+- Gradle report screenshots are in: src/test/resources/screenshots/gradle-report
+
 ## Allure Report:
 
-![Screenshot (22)](https://user-images.githubusercontent.com/123433625/221787737-86cb2a17-622d-47fb-a52d-46834502bb80.png)
-
-
-![Screenshot (23)](https://user-images.githubusercontent.com/123433625/221787758-f6d483c4-359b-4372-88cd-8f0d8c591501.png)
-
-## Video Output:
-
-https://user-images.githubusercontent.com/123433625/222357881-fc5ade76-607b-47d8-884d-cd7c4f4c6b6b.mp4
-
-
+- Allure report screenshots are in: src/test/resources/screenshots/allure-report
 
