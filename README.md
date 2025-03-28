@@ -25,7 +25,7 @@ App automation with Selenium Appium is beneficial because it allows developers a
 - Open Appium Server with following command: ```appium -p 4723```
 - Open Appium Inspector
 - Set desired capabilites in json format:
-``` 
+```json 
 {
   "unicodeKeyboard": false,
   "resetKeyboard": false,
@@ -67,4 +67,7 @@ App automation with Selenium Appium is beneficial because it allows developers a
 ## Screenshots - Allure Report:
 
 - Allure report screenshots are in: src/test/resources/screenshots/allure-report
+
+
+
 
